@@ -26,7 +26,7 @@ export const products = [
   {
     id: 4,
     name: "Laptop Backpack",
-    price: 500,
+    price: 999,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300",
     category: "Accessories",
     description: "Durable laptop backpack with multiple compartments"

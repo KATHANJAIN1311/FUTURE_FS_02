@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AppProvider, useApp } from './context/AppContext';
 import Header from './components/Header';
+import Homepage from './components/Homepage';
 import ProductList from './components/ProductList';
 import ProductDetail from './components/ProductDetail';
 import Cart from './components/Cart';
@@ -18,6 +19,7 @@ function AppContent() {
   const [showProductDetail, setShowProductDetail] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [showAllProducts, setShowAllProducts] = useState(false);
   const [orderSuccess, setOrderSuccess] = useState(false);
 
   // Make admin function globally accessible
@@ -80,9 +82,28 @@ function AppContent() {
         </div>
       )}
 
-      {/* Show products only for customers or non-logged users */}
+      {/* Show homepage or all products for customers/non-logged users */}
       {(state.userType === 'customer' || !state.user) && (
-        <ProductList onProductClick={handleProductClick} />
+        showAllProducts ? (
+          <ProductList onProductClick={handleProductClick} />
+        ) : (
+          <Homepage 
+            onProductClick={handleProductClick} 
+            onViewAllProducts={() => setShowAllProducts(true)}
+          />
+        )
+      )}
+
+      {/* Back to Home button when viewing all products */}
+      {showAllProducts && (state.userType === 'customer' || !state.user) && (
+        <div className="container mx-auto px-4 py-4">
+          <button
+            onClick={() => setShowAllProducts(false)}
+            className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg"
+          >
+            ← Back to Home
+          </button>
+        </div>
       )}
 
       {/* Owner Dashboard View */}
