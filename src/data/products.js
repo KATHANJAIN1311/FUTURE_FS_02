@@ -51,7 +51,7 @@ export const products = [
     id: 7,
     name: "Throw Pillow",
     price: 300,
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300",
+    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=300",
     category: "Home",
     description: "Soft decorative throw pillow for living room"
   },
@@ -67,7 +67,7 @@ export const products = [
     id: 9,
     name: "Table Runner",
     price: 350,
-    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=300",
+    image: "https://plus.unsplash.com/premium_photo-1670869816874-5a22db823d6f?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Home",
     description: "Elegant table runner for dining table"
   },
@@ -75,7 +75,7 @@ export const products = [
     id: 10,
     name: "Candle Set",
     price: 560,
-    image: "https://images.unsplash.com/photo-1602874801006-e26d405c9c8f?w=300",
+    image: "https://media.istockphoto.com/id/1186444303/photo/composition-burning-candles-close-up-isolated-on-black-melted-wax-candles-of-different-shapes.webp?a=1&b=1&s=612x612&w=0&k=20&c=fqRK0_rlgofkDEq92t3oDxSUjk97-RsA8ZPRoSqzdXU=",
     category: "Home",
     description: "Scented candle set for home ambiance"
   },
@@ -91,7 +91,7 @@ export const products = [
     id: 12,
     name: "Kitchen Towel Set",
     price: 450,
-    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300",
+    image: "https://plus.unsplash.com/premium_photo-1675799686553-9a3ac3819f2f?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Home",
     description: "Absorbent kitchen towel set of 3"
   },
@@ -99,7 +99,7 @@ export const products = [
     id: 13,
     name: "Photo Frame",
     price: 999,
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=300",
+    image: "https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg",
     category: "Home",
     description: "Wooden photo frame for memories"
   },
@@ -107,7 +107,7 @@ export const products = [
     id: 14,
     name: "Storage Basket",
     price: 150,
-    image: "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=300",
+    image: "https://images.pexels.com/photos/32837695/pexels-photo-32837695.jpeg",
     category: "Home",
     description: "Woven storage basket for organization"
   },
@@ -115,7 +115,7 @@ export const products = [
     id: 15,
     name: "Curtains",
     price: 1299,
-    image: "https://images.unsplash.com/photo-1586796676709-f5ac5b6b8b8b?w=300",
+    image: "https://images.pexels.com/photos/977145/pexels-photo-977145.jpeg",
     category: "Home",
     description: "Blackout curtains for bedroom"
   },
@@ -123,7 +123,7 @@ export const products = [
     id: 16,
     name: "Decorative Vase",
     price: 1899,
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300",
+    image: "https://images.pexels.com/photos/32898876/pexels-photo-32898876.jpeg",
     category: "Home",
     description: "Glass decorative vase for flowers"
   },
@@ -163,7 +163,7 @@ export const products = [
     id: 21,
     name: "Belt",
     price: 800,
-    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300",
+    image: "https://images.pexels.com/photos/71123/belts-leather-seam-sew-71123.jpeg",
     category: "Accessories",
     description: "Genuine leather belt with metal buckle"
   },
@@ -171,7 +171,7 @@ export const products = [
     id: 22,
     name: "Keychain",
     price: 150,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300",
+    image: "https://images.pexels.com/photos/1194025/pexels-photo-1194025.jpeg",
     category: "Accessories",
     description: "Metal keychain with engraved design"
   },
